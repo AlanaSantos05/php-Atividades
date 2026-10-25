@@ -1,0 +1,15 @@
+<?php
+$v1 = readline("Informe o primeiro valor: ");
+$v2 = readline("Informe o segundo valor: ");
+echo " Os valores recebidos foram: $v1 e $v2\n";
+echo "\n--- Valores Armazenados ---\n";
+echo " O valor absoluto de $v2 é ".abs($v2) . "\n";
+
+echo " A potência de $v1 por $v2 é ".pow($v1, $v2) . "\n";
+
+echo " A raiz quadrada de $v1 é ".sqrt($v1) . "\n";
+
+echo " O valor de $v1 arredondado é ".round($v1) . "\n";
+
+echo " A parte inteira de $v1 é ".intval($v1) . "\n";
+?>
