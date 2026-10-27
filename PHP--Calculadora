@@ -1,6 +1,5 @@
-<?php
-$n1= 3;
-$n2= 2;
+$n1 = readline("Informe o primeiro valor: ");
+$n2 = readline("informe o segundo valor");
 
 echo" A soma é ";
 echo ($n1 + $n2). "\n";
