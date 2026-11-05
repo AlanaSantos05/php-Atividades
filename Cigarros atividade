@@ -1,0 +1,14 @@
+<? php
+ $cigarros_dias = 12;
+
+ $anos_fumados = 100;
+
+ $dias_fumando = $anos_fumados * 365;
+
+ $cigarros_fumados = dias_fumando * 11;
+
+ $dias_perdidos * floor($minutos_perdidos / 60) / 24;
+
+ $minutos_restantes = $minutos_perdidos % (60 * 24);
+
+ print("Você perdeu $dias_perdidos e $minutos_restantes minutos em razão do hábito de fumar");
